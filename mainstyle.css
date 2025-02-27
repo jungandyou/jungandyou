@@ -1,0 +1,165 @@
+@media screen and (min-width: 801px) {/*노트북일때 사용하는 style*/
+	body{
+		margin:0px;
+		padding:0px;
+		background: -webkit-gradient(linear, center top, center bottom,
+		color-stop(60%, white), color-stop(100%, skyblue));
+		/* color-stop(40%, white), color-stop(100%, pink)); */
+	}/*전체적으로 해줌*/
+	header{
+		text-align:center;
+		padding-bottom:70px;
+		text-decoration:none;
+		font-family:fantasy, serif;
+		font-size:30px;
+	}/*header에 대해 기본 설정*/
+	header h1{
+		margin-left:100px;
+	}/*header 에 속해 있는 h1 위치 설정*/
+	header h1 a{
+		text-shadow:4px 4px 3px #CFCFCF;
+	}
+	header div{
+		margin-top:-25px;
+		margin-left:-170px;
+	}/*header에 있는 div 설정*/
+	#Logo2{
+		position:relative;
+		float:right;
+		left:-20px;
+		z-index:0;
+	}/*Logo2에다가 relative 하고 z-index으로 아래에다가 두게 의도*/
+	header form {
+		float:right;
+		padding-right:20px;
+		position:relative;
+		top:-17ex;
+		z-index:1;
+	}/*로그인과 회원가입 버튼을 relative과 z-index로 위에다가 두게 의도*/
+	header a{
+		text-decoration:none;
+		color:black;
+	}
+	nav{
+		margin:0px;
+		padding:0px;
+		margin-left:70px;
+		width:125px;
+		float:left;
+		text-align:left;
+		font-family:fantasy, sans-serif;
+		font-size:20px;
+	}/*nav 기본설정 nav는 홈페이지엣 Category를 의미*/
+	nav h2{
+		margin:0px;
+		padding:0px;
+		margin-left:15px;
+		font-family:fantasy, serif;
+	}
+	nav ul{
+		margin:0px;
+		padding:0px;
+		width:120px;
+		list-style:none;/*밑줄 없애줌*/
+	}
+	nav ul li{
+		border-top-right-radius:20px;
+		border-bottom-right-radius:20px;
+		background-color:#9F9F9F;
+	}/*배경색 회색으로 해주고 오른쪽 둥글게함*/
+	nav ul li a{
+		padding-left:10px;
+		font-size:25px;
+		text-decoration:none;/*밑줄 없애줌*/
+		color:white;
+	}
+	nav ul li a:hover{/*Category 위에 마우스 올려놓으면 아래와 같이 바뀜*/
+		display:block;/*block ㅊ처리함*/
+		border-top-right-radius:20px;
+		border-bottom-right-radius:20px;
+		background:#DFDFDF;/*배경색 바뀜*/
+		color:black;/*글자색도 바뀜*/
+	}
+}
+@media screen and (max-width:800px){/*스마트폰일때 스타일시트로써 이와 구성은
+	숫자만 다릅니다*/
+	body{
+		margin:0px;
+		padding:0px;
+		background: -webkit-gradient(linear, center top, center bottom,
+		color-stop(40%, white), color-stop(100%, pink));
+	}
+	header{
+		text-align:center;
+		padding-bottom:35px;
+		text-decoration:none;
+		font-family:fantasy, serif;
+		font-size:20px;
+	}
+	header h1{
+		margin-left:85px;
+	}
+	header h1 a{
+		text-shadow:2px 2px 2px #CFCFCF;
+	}
+	header h1 div{
+		margin-left:-85px;
+	}
+	#Logo2{
+		position:relative;
+		float:right;
+		right:-3ex;
+		z-index:0;
+	}
+	header form {
+		float:right;
+		padding-right:10px;
+		position:relative;
+		top:-2ex;
+		z-index:1;
+	}
+	header a{
+		text-decoration:none;
+		color:black;
+	}
+	nav{
+		margin:0px;
+		padding:0px;
+		margin-left:35px;
+		width:62px;
+		float:left;
+		text-align:left;
+		font-family:fantasy, sans-serif;
+		font-size:10px;
+	}
+	nav h2{
+		margin:0px;
+		padding:0px;
+		margin-left:8px;
+		font-family:fantasy, serif;
+	}
+	nav ul{
+		margin:0px;
+		padding:0px;
+		width:60px;
+		list-style:none;
+	}
+	nav ul li{
+		border-top-right-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color:#9F9F9F;
+	}
+	nav ul li a{
+		padding-left:5px;
+		font-size:12px;
+		text-decoration:none;
+		color:white;
+	}
+	nav ul li a:hover{
+		display:block;
+		border-top-right-radius:10px;
+		border-bottom-right-radius:10px;
+		background:#DFDFDF;
+		color:black;
+	}
+}
